@@ -1,0 +1,59 @@
+/*Styl ogólny */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#1a1a2e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nagłówek */
+header {
+    background-color: 4834d4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sekcje */
+section {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+/*Tabela rankingowa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: 4834d4;
+}
+tr:nth-child(even) {
+    background-color: 2f2f4f;
+}
+
+/* Stópka */
+footer {
+    background-color: 130f40;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Przycisk */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff6b81;
+}
