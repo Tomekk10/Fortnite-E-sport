@@ -21,16 +21,47 @@
     <section id="Aktualności">
         <h2>Aktualności Fortnite</h2>
 
+<!--Lista zakładek-->
+<div class="tabs">
+    <button class="tab" onclick="pokazAktualnosc('akt1')">Setty wygrywa!</button>
+    <button class="tab" onclick="pokazAktualnosc('akt2')">Nowy sezon Fortnite</button>
+    <button class="tab" onclick="pokazAktualnosc('akt3')">FNCS nadchodzi</button>
+</div>
+
+<!--Treść zakładek-->
+<div id="akt1" class="tab-content">
+    <h3>Setty wygrywa kolejny turniej!</h3>
+    <p>Setty zdominował najnowszy turniej Fortnite, pokazując niesamowite umiejętności.
+        Dzięki perfekcyjnej grze udało mu się zdobyć pierwsze miejsce!</p>
+</div>
+
+<div id="akt2" class="tab-content" style="display:none;">
+    <h3>Nowy sezon Fortnite już dostępny</h3>
+    <p>Epic Games wystartowało z nowym sezonem - nowe bronie, lokacje i eventy
+        Gracze z całego świata testują już świeże funkcje!</p>
+</div>
+
+<div id="akt3" class="tab-content" style="display:none;">
+    <h3>FNCS nadchodzi!</h3>
+    <p>Największy turniej w Fortnite startuje już wkrótce - gracze z całego świata walczą o milionowe nagrody.
+        Szykujcie się na ogromne emocje!</p>
+</div>
+</section>
+
+</div>
         <div class="news">
             <h3 style="text-align: center;"><p></p> Znamy zwycięzców FNCS GlobalChampionShip 2025!</h3>
             <img src="FNCS-2025-Global-Championship.jpg" alt="Turniej Fortnite" class="news-image">
-            <h4 style="text-align: center;"><p></p> Zwycięzcami Mistrzostw Globalnych FNCS w 2025 roku zostaliTwis Queasy, M8 Swizzy i M8 Merstach . Zwycięska drużyna zdobyła trzy Królewskie Zwycięstwa i łącznie 61 Eliminacji, udowadniając swoje umiejętności na arenie międzynarodowej.</h4>
+            <h4 style="text-align: center;"><p></p> Zwycięzcami Mistrzostw Globalnych FNCS w 2025 roku zostali:<br> Twis Queasy, M8 Swizzy i M8 Merstach.Zwycięska drużyna zdobyła<br> trzy Królewskie Zwycięstwa i łącznie 61 Eliminacji, udowadniając swoje<br> umiejętności na arenie międzynarodowej.</h4>
+            <a href="aktualnosc1.html">Czytaj więcej></a>
+        </div>
+
 <!--Sekcja ranking top graczy e-sportowych-->
 <section id="ranking">
     <h2>Top gracze e-sportowi</h2>
     <table>
         <tr>
-            <th>Miejsce</tr>
+            <th>Miejsce</th>
             <th>Gracz</th>
             <th>Punkty</th>
         </tr>
@@ -63,6 +94,6 @@
     <p>© 2025 Strona e-sport Fortnite</p>
 </footer>
 
-<script scr="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

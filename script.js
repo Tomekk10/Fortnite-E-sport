@@ -6,7 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
 // Przycisk losujący zwycięzcę turnieju
 const button = document.getElementById("Losuj");
 button.addEventListener("click", () => {
-    const gracze = ["Setty", "Demuś", "Mikson", "Kami", "Japko"];
+    const gracze = ["Setty", "Demuś", "Mikson"];
     const zwycięzca = gracze[Math.floor(Math.random() * gracze.length)];
     alert("zwycięzca turnieju: " + zwycięzca);
 });
+
+
+function pokazAktualnosc(id) {
+    // ukryj wszystkie
+    const zakladki = document.querySelectorAll(".tab-content");
+    zakladki.forEach(z => z.style.display = "none");
+
+    // pokaż wybraną
+    document.getElementById(id).style.display = "block";
+}
