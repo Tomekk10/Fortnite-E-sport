@@ -7,17 +7,10 @@ body {
     padding: 0;
 }
 
-/* Nagłówek */
-header {
-    background-color: 4834d4;
-    text-align: center;
-    padding: 20px;
-}
-
 /* Pasek menu przyklejony do góry */
 nav {
     position: fixed;               /* przykleja pasek do ekranu */
-    top: 0;                   
+    top: 0;
     left: 0;
     width: 100%;                   /* cały ekran */
     background-color: #1a1a2e;   /* ciemne tło */
@@ -53,65 +46,3 @@ nav ul li a:hover {
     color: #111;
     transform: scale(1.05);
 }
-
-/* Sekcje */
-section {
-    padding: 20px;
-    border-bottom: 1px solid #fff;
-}
-
-/*Tabela rankingowa */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-th, td {
-    border: 1px solid #fff;
-    padding: 8px;
-    text-align: center;
-}
-th {
-    background-color: 4834d4;
-}
-tr:nth-child(even) {
-    background-color: 2f2f4f;
-}
-
-/* Stópka */
-footer {
-    background-color: 130f40;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Przycisk */
-button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #ff4757;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #ff6b81;
-}
-
-/* Zdjęcie na górze */
-.banner {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    display: block;
-}
-
-/* Zdjęcie w aktualnościach */
-.news-image {
-    width: 100%;
-    max-height: 250px;
-    object-fit: contain;
-    display: block;
-}
-
-/* Aktualności */

@@ -1,5 +1,5 @@
 // Sprawdzenie czy JS działa
-document.addEventListener("DOMContentLoaded", () => {
+documentaddEventListener("DOMContentLoaded", () => {
     alert("Witaj na e-sportowej stronie Fortnite'a!");
 });
 
@@ -19,4 +19,11 @@ function pokazAktualnosc(id) {
 
     // pokaż wybraną
     document.getElementById(id).style.display = "block";
+}
+
+
+function pokazStrone(id) {
+    const strony = document.querySelectorAll("section");
+    strony.forEach(s => s.style.display = "none"); // ukryj wszystkie
+    document.getElementsById(id).style.display = "block"; // pokaż wybraną
 }
